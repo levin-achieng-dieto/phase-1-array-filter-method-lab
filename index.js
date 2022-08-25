@@ -5,8 +5,9 @@ function findMatching(names, drivers){
 }
 
 function fuzzyMatch(name, firstLatter){
+
   return name.filter(
-    (matchingNames) = matchingNames.indexOf(firstLatter.toLowerCase()) === "sa"
+    (matchingNames) => matchingNames.toLowerCase().indexOf(firstLatter.toLowerCase()) === 0
   )
 }
 
